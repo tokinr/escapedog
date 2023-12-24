@@ -1,0 +1,20 @@
+/* style.css */
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: #527853; 
+}
+
+#buttonContainer {
+  position: absolute; 
+  width: 100px; 
+  height: 92px; 
+  background-size: cover; 
+  cursor: pointer;
+  border: none; 
+  outline: none; 
+}
+
+#buttonContainer:hover {
+  transform: scale(2.0); 
+}
